@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  background: #f6f5f1;
 }
 
 #wrapper {
@@ -33,6 +34,7 @@ html {
   border: 2px #6F7372 solid;
   width: 2%;
   margin: 0;
+  background: #fff;
 }
 
 .head {
@@ -108,22 +110,48 @@ html {
 }
 
 .cell.control {
-  height: 3em;
-  width: 8.7em;
-  float: right;
-  line-height: 3em;
+  width: 4.3em;
+  border: none;
+  float: left;
+  margin: 0.1em 0.1em;
   border-top: 0;
   cursor: pointer;
   font-size: 14px;
 }
 
 #remove_button {
-  border-left: none;
-  margin-right: -.15em;
+  background: #cc5342 ;
+}
+#remove_button:hover {
+  background: #e11;
+}
+
+#add_button {
+  background: #42cc53;
+}
+#add_button:hover {
+  background: #1e1;
+}
+
+.button {
+  border: none;
+  padding: 18px 0em;
+  text-decoration: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s; 
 }
 
 #start_game {
+  margin: auto;
   border-right: none;
+  background: #42cc53;
+  width: 8em;
+  font-size: 14px;
+}
+
+#start_game:hover {
+  background: #1e1;
 }
 
 .game_hide {
